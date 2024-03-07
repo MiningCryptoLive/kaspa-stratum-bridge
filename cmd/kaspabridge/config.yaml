@@ -13,7 +13,7 @@ kaspad_address: localhost:16110
 # reducing network traffic and server load, while lower values will increase the
 # number of shares submitted, thereby reducing the amount of time needed for 
 # accurate hashrate measurements
-# min_share_diff: 4
+ min_share_diff: 16
 
 # block_wait_time: time to wait since last new block message from kaspad before
 # manually requesting a new block
