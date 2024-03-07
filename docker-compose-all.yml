@@ -9,11 +9,11 @@ services:
     command:
       - '-log=true'
       - '-stats=false'
-      - '-stratum=:5555'
+      - '-stratum=:5557'
       - '-prom=:2114'
       - '-kaspa=host.docker.internal:16110'
     ports:
-      - 5555:5555
+      - 5557:5557
       - 2114:2114
     extra_hosts:
       - host.docker.internal:host-gateway
